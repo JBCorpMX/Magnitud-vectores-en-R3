@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Magnitud vectores en R3</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+
+
+<form class="box" action="index.html" method="post">
+    <script>
+
+      //xVector1, yVector1
+      var xVector1 = parseInt(prompt("Introduce X del vector: "));
+      var yVector1 = parseInt(prompt("Introduce Y del vector: "));
+      var zVector1= parseInt(prompt("Introduce Z del vector: "));
+
+      // var xVector2 = parseInt(prompt("Introduce X del segundo vector: "));
+      // var yVector2 = parseInt(prompt("Introduce Y del segundo vector: "));
+      // var zVector2 = parseInt(prompt("Introduce Z del primer vector: "));
+
+    // var xSuma=xVector1+xVector2;
+    // var ySuma=yVector1+yVector2;
+    // var zSuma=zVector1+zVector2;
+
+    var Magnitud=Math.sqrt((xVector1*xVector1)+(yVector1*yVector1)+(zVector1))
+
+      document.write("<br>");
+      document.write("<h1>La Magnitud del vector es:</h1>");
+      document.write("<font face='arial' size='3'>")
+      document.write("<h4>Magnitud = " +Magnitud+"</font></h4><br>");
+      // document.write("<font face='arial' size='3'>")
+      // document.write("<h4> segundo escalar " + width + ".</font></h4><br><br>");
+      // document.write("<font face='arial' size='3'>")
+      // document.write("   <h4>Magnitud es " + Magnitud + ".</font></h4>");
+
+    </script>
+
+
+
+
+
+</form>
+
+
+  </body>
+</html>
